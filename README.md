@@ -69,12 +69,22 @@ We combine the filesharing site from the previous question with the `uri` value 
 
 ![](https://i.postimg.cc/Fsxxtz8f/elk5.png)
 
+
+---
+
+
+
 ### **Task 6**:
 **A file was accessed on the filesharing site. What is the name of the file accessed?**
 
 By visiting the full URL in a browser, we can see the file name that was accesed.
 
 ![](https://i.postimg.cc/Qt3nhw8S/elk8.png)
+
+
+---
+
+
 
 ### **Task 7**:
 **The file contains a secret code with the format THM{_____}.**

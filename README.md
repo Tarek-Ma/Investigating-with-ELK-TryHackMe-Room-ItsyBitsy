@@ -1,6 +1,10 @@
 # Investigating-with-ELK ( TryHackMe room ItsyBitsy )
 SOC lvl 1 investigation with ELK ( THM ItsyBitsy room ) - Detecting and analyzing C2 communication
 
+🔗 [Web version in Github Pages](https://tarek-ma.github.io/Investigating-with-ELK-TryHackMe-Room-ItsyBitsy/)
+
+🔗 [Link of the room in TryHackMe](https://tryhackme.com/room/itsybitsy)
+
 ## Introduction
 
 During normal SOC monitoring, Analyst John observed an alert on an IDS solution indicating a potential C2 communication from a user Browne from the HR department. A suspicious file was accessed containing a malicious pattern THM:{ ________ }. A week-long HTTP connection logs have been pulled to investigate. Due to limited resources, only the connection logs could be pulled out and are ingested into the connection_logs index in Kibana.

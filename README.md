@@ -24,7 +24,7 @@ We configure the date range in Kibana to March 2022 and we can see the number of
 ### **Task 2**:
 **What is the IP associated with the suspected user in the logs?**
 
-In the left-hand pannel, we can see the field `source_ip` which shows 2 values. By adding the second one as a filter, we find 2 results, i then searched the `destination_ip`(104.23.99.190)  with VirusTotal and confirmed that the second IP tried to connect to a malicious IP.
+In the left-hand pannel, we can see the field `source_ip` which shows 2 values. By adding the second one as a filter, we find 2 results, i then searched the `destination_ip`(104.23.99.190)  with VirusTotal and confirmed that the second IP connected to a malicious IP.
 
 ![](https://i.postimg.cc/44hv3m92/elk2.png)
 
@@ -74,9 +74,11 @@ We combine the filesharing site from the previous question with the `uri` value 
 
 By visiting the full URL in a browser, we can see the file name that was accesed.
 
-![](https://i.postimg.cc/brLc28Cm/elk7.png)
+![](https://i.postimg.cc/Qt3nhw8S/elk8.png)
 
 ### **Task 7**:
-The file contains a secret code with the format THM{_____}.
+**The file contains a secret code with the format THM{_____}.**
 
-We can also see the content on the file 
+We can also see the content of the file from the previous question. 🙂
+
+### Thank you for reading ! 😃
